@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
 
         showPlaceholder()
         binding.image.setOnClickListener {
-            Toast.makeText(this, switch.isChecked.toString(), Toast.LENGTH_SHORT).show()
             loadImage(switch.isChecked)
         }
     }
